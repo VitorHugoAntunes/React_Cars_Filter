@@ -1,0 +1,36 @@
+.cardContainer {
+    background: var(--card-background);
+    padding: 20px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    color: var(--strong-text);
+}
+
+.cardContainer .vehicleImage {
+    display: block;
+    text-align: center;
+}
+
+.cardContainer > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cardContainer > div > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardContainer > div > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardContainer > div > div > div span:first-child {
+    color: var(--soft-text);
+}

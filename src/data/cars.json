@@ -1,0 +1,54 @@
+{
+    "cars": {
+        "car1": {
+            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/assets/main/jaguarFType.png",
+            "brand": "BMW",
+            "model": "M8",
+            "year": 2000,
+            "mileage": 0,
+            "price": 50000,
+            "bodyStyle": "Convertible",
+            "fuelType": "Alcohol" 
+        },
+        "car2": {
+            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/assets/main/ferrariPortofino.png",
+            "brand": "Ferrari",
+            "model": "f5",
+            "year": 2002,
+            "mileage": 5000,
+            "price": 60000,
+            "bodyStyle": "Sedan",
+            "fuelType": "Ethanol" 
+        },
+        "car3": {
+            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/assets/main/jaguarFType.png",
+            "brand": "Jaguar",
+            "model": "F Type",
+            "year": 2005,
+            "mileage": 10000,
+            "price": 90000,
+            "bodyStyle": "Coupe",
+            "fuelType": "Gasoline"
+        },
+        "car4": {
+            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/assets/main/ferrariPortofino.png",
+            "brand": "Audi",
+            "model": "R8",
+            "year": 2010,
+            "mileage": 150000,
+            "price": 100000,
+            "bodyStyle": "SUV",
+            "fuelType": "Alcohol"
+        },
+        "car5": {
+            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/assets/main/jaguarFType.png",
+            "brand": "Mercedes",
+            "model": "AMG",
+            "year": 2018,
+            "mileage": 200000,
+            "price": 140000,
+            "bodyStyle": "Sport",
+            "fuelType": "Gasoline"
+        }
+    }
+}

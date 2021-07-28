@@ -1,0 +1,112 @@
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 25px 0 25px;
+}
+
+.profileContainer button {
+    font-weight: 500;
+}
+
+.profileContainer:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileContainer:first-child .profileInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profileContainer:first-child .profileInfo .profilePhotoDiv {
+    cursor: pointer;
+}
+
+.profileContainer:first-child .profileInfo button {
+    height: 30px;
+    width: 30px;
+    background: var(--input-background);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileContainer:first-child .profileInfo button:hover {
+    background: var(--card-background);
+}
+
+.profileContainer:first-child .profileInfo > div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.profileContainer:first-child .profileInfo .profilePhoto {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--soft-text);
+}
+
+.profileContainer:first-child .editProfile {
+    margin-top: 20px;
+}
+
+.profileContainer:first-child .editProfile button {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: transparent;
+    border: 1px solid #4d5761;
+    border-radius: 6px;
+    color: var(--strong-text);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.profileContainer:first-child .editProfile button:hover {
+    background: var(--card-background);
+}
+
+.profileContainer section:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profileContainer section:last-child button {
+    width: 100%;
+    height: 65px;
+    background: var(--button-background);
+    border: none;
+    border-radius: 6px;
+    color: var(--strong-text);
+    transition: 0.2s;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+}
+
+.profileContainer section:last-child button:hover {
+    background: var(--card-background);
+}
+
+.profileContainer section:last-child button > div {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}

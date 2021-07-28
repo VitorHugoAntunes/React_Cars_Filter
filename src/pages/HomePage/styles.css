@@ -1,0 +1,39 @@
+.appContainer {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.appContainer > aside, .appContainer > main, menuToggle  {
+    background: white;
+    max-height: 90%;
+    height: 100%;
+}
+
+.appContainer .asideLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+}
+
+.appContainer main {
+    width: 600px;
+    max-height: 90%;
+    overflow-y: scroll;
+
+    scrollbar-width: thin;
+}
+
+.appContainer .menuToggle {
+    width: 400px;
+}
+
+.appContainer .asideLeft, .appContainer main, .appContainer .menuToggle  {
+    background: var(--background);
+}
