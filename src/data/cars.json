@@ -1,7 +1,7 @@
 {
     "cars": {
         "car1": {
-            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/assets/main/jaguarFType.png",
+            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/React_Cars_Filter/main/src/assets/jaguarFType.png",
             "brand": "BMW",
             "model": "M8",
             "year": 2000,
@@ -11,7 +11,7 @@
             "fuelType": "Alcohol" 
         },
         "car2": {
-            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/assets/main/ferrariPortofino.png",
+            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/React_Cars_Filter/main/src/assets/ferrariPortofino.png",
             "brand": "Ferrari",
             "model": "f5",
             "year": 2002,
@@ -21,7 +21,7 @@
             "fuelType": "Ethanol" 
         },
         "car3": {
-            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/assets/main/jaguarFType.png",
+            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/React_Cars_Filter/main/src/assets/jaguarFType.png",
             "brand": "Jaguar",
             "model": "F Type",
             "year": 2005,
@@ -31,7 +31,7 @@
             "fuelType": "Gasoline"
         },
         "car4": {
-            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/assets/main/ferrariPortofino.png",
+            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/React_Cars_Filter/main/src/assets/ferrariPortofino.png",
             "brand": "Audi",
             "model": "R8",
             "year": 2010,
@@ -41,7 +41,7 @@
             "fuelType": "Alcohol"
         },
         "car5": {
-            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/assets/main/jaguarFType.png",
+            "photo": "https://raw.githubusercontent.com/VitorHugoAntunes/React_Cars_Filter/main/src/assets/jaguarFType.png",
             "brand": "Mercedes",
             "model": "AMG",
             "year": 2018,
